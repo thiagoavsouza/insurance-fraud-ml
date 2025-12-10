@@ -115,7 +115,6 @@ scikit-learn
 xgboost
 lightgbm
 statsmodels
-imblearn
 ```
 
 ------------------------------------------------------------------------
