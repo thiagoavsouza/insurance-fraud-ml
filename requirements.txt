@@ -4,7 +4,5 @@ matplotlib
 seaborn
 scikit-learn
 statsmodels
-imblearn
 xgboost
 lightgbm
-pypandoc
