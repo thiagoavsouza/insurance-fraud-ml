@@ -1,4 +1,4 @@
-# Detecção de Fraude em Seguro -- Comparação de Modelos de Machine Learning
+# Detecção de Fraude em Seguro - Comparação de Modelos de Machine Learning
 
 ## Descrição do Projeto
 
@@ -53,30 +53,23 @@ em ações operacionais.
 
 ## Comparação dos Modelos (Resumo)
 
-  ------------------------------------------------------------------------------
-  Modelo                  Características   Pontos Fortes    Limitações
-  ----------------------- ----------------- ---------------- -------------------
-  **Regressão Logística** Baseline          Coeficientes     Não captura
-                          interpretável     claros; rápido   relações complexas
+    ## Comparação dos Modelos
 
-  **Decision Tree**       Modelo não linear Interpretação    Pode sofrer
-                                            visual           overfitting
-
-  **Random Forest**       Ensemble de       Robusto; boa     Treino mais lento
-                          árvores           performance      
-
-  **XGBoost**             Boosting          Alta             Mais complexo para
-                          otimizado         performance;     tunar
-                                            controle de      
-                                            overfitting      
-
-  **LightGBM**            Boosting rápido   Excelente em     Exige cuidado no
-                                            grandes volumes  pré-processamento
-  ------------------------------------------------------------------------------
+| Modelo               | Características        | Pontos Fortes                          | Limitações                           |
+|----------------------|------------------------|------------------------------------------|----------------------------------------|
+| **Regressão Logística** | Baseline interpretável | Coeficientes claros; rápido             | Não captura relações complexas         |
+| **Decision Tree**       | Modelo não linear       | Interpretação visual                     | Pode sofrer overfitting                |
+| **Random Forest**       | Ensemble de árvores      | Robusto; boa performance                 | Treino mais lento                      |
+| **XGBoost**             | Boosting otimizado       | Alta performance; controle de overfitting | Mais complexo para tunar               |
+| **LightGBM**           | Boosting rápido          | Excelente em grandes volumes             | Exige cuidado no pré-processamento     |
 
 ------------------------------------------------------------------------
 
 ## Resultados Principais (exemplo ilustrativo)
+
+
+<img width="700" height="451" alt="image" src="https://github.com/user-attachments/assets/7ede9e9e-c123-444e-9fea-18b5961d6f1c" />
+
 
 -   **AUC Geral dos Modelos:** entre 0.84 e 0.96\
 -   **Modelos de melhor performance:** Random Forest, LightGBM e
