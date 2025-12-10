@@ -71,7 +71,7 @@ em ações operacionais.
 <img width="700" height="451" alt="image" src="https://github.com/user-attachments/assets/7ede9e9e-c123-444e-9fea-18b5961d6f1c" />
 
 
--   **AUC Geral dos Modelos:** entre 0.84 e 0.96\
+-   **AUC Geral dos Modelos:** entre 0.81 e 0.96\
 -   **Modelos de melhor performance:** Random Forest, LightGBM e
     XGBoost\
 -   **Modelos mais interpretáveis:** Regressão Logística e Decision
