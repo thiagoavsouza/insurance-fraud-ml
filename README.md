@@ -54,18 +54,19 @@ em ações operacionais.
 ## Comparação dos Modelos (Resumo)
 
 
-| Modelo               | Características        | Pontos Fortes                          | Limitações                           |
-|----------------------|------------------------|------------------------------------------|----------------------------------------|
-| **Regressão Logística** | Baseline interpretável | Coeficientes claros; rápido             | Não captura relações complexas         |
-| **Decision Tree**       | Modelo não linear       | Interpretação visual                     | Pode sofrer overfitting                |
-| **Random Forest**       | Ensemble de árvores      | Robusto; boa performance                 | Treino mais lento                      |
-| **XGBoost**             | Boosting otimizado       | Alta performance; controle de overfitting | Mais complexo para tunar               |
-| **LightGBM**           | Boosting rápido          | Excelente em grandes volumes             | Exige cuidado no pré-processamento     |
-
+| Modelo                  | AUC         | Precision (fraude) | Recall (fraude) | F1 fraude  | Accuracy   | FP (ruído)       |
+| ----------------------- | ----------- | ------------------ | --------------- | ---------- | ---------- | ---------------- |
+| **Regressão Logística** | 0.806       | 0.13               | **0.94**        | 0.22       | 0.61       | altíssimo        |
+| **Decision Tree**       | 0.824       | 0.13               | **0.96**        | 0.22       | 0.60       | altíssimo        |
+| **Random Forest**       | 0.870       | 0.21               | 0.81            | 0.33       | 0.80       | alto             |
+| **LightGBM**            | 0.936       | 0.51               | 0.68            | 0.58       | 0.94       | **médio**        |
+| ⭐ **XGBoost**           | ⭐ **0.959** | ⭐ **0.64**         | 0.68            | ⭐ **0.66** | ⭐ **0.96** | ⭐ **mais baixo** |
 
 ------------------------------------------------------------------------
 
-## Resultados Principais (exemplo ilustrativo)
+## Resultados Principais
+
+![alt text](image.png)
 
 -   **AUC Geral dos Modelos:** entre 0.81 e 0.96\
 -   **Modelos de melhor performance:** Random Forest, LightGBM e
