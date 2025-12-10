@@ -66,7 +66,7 @@ em ações operacionais.
 
 ## Resultados Principais
 
-![alt text](image.png)
+![alt text](Resultados_AUC.png)
 
 -   **AUC Geral dos Modelos:** entre 0.81 e 0.96\
 -   **Modelos de melhor performance:** Random Forest, LightGBM e
